@@ -30,14 +30,14 @@ nav-menu:
   permalink: projects
 
 # use false to turn off any social media links
-twitter: https://twitter.com/
+twitter: false
 facebook: https://facebook.com/
 instagram: https://instagram.com/
-github: https://github.com/
+github: https://github.com/benjaminunraudyck
 linkedin: https://linkedin.com/
 medium: false
 google-scholar: false
-email: false
+email: benjaminunrau07@gmail.com
 
 # footer information
 footer-msg: "Powered by Tailpages"
