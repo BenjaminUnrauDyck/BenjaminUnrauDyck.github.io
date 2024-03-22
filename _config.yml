@@ -3,15 +3,15 @@ baseurl: "" # the name of your github repo
 url: "https://BenjaminUnrauDyckGH.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
-title: "Tailpages: Tailwind + Github Pages"
+title: "Benjamin Unrau Dyck - Portfolio"
 description: A Github Pages (Jekyll) template based on TailwindCSS
 
 # color theme for links
 theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
-author: Satoshi Nakamoto
-author-bio: Creator of Bitcoin  # change to false to hide
+author: Benjamin Unrau Dyck
+author-bio: 23-year-old paraguayan student pursuing a Bachelor’s Degree in Computer Science
 author-image: 279.png  # file must be in the /assets/img/ folder
 
 # navigation menu
@@ -20,10 +20,14 @@ show-nav-menu: true
 nav-menu:
 - text: About
   permalink: about
-- text: Bitcoin
-  permalink: bitcoin
-- text: Blog
-  permalink: blog
+- text: Education
+  permalink: education
+- text: Certifications
+  permalink: certifications 
+- text: Work Experience
+  permalink: work experience
+- text: Projects
+  permalink: projects
 
 # use false to turn off any social media links
 twitter: https://twitter.com/
