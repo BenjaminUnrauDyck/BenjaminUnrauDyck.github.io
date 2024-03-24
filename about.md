@@ -50,7 +50,7 @@ My technical skills are centered around backend development and database managem
 |C	|
 
 
-##Passion and Interests
+## Passion and Interests
 
 My passion lies in data analysis and cybersecurity. I am constantly exploring these fields to deepen my understanding and develop skills that will enable me to contribute to the safety and efficiency of digital systems.
 
