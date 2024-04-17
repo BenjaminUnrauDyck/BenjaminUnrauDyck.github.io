@@ -12,7 +12,7 @@ theme-color: indigo # indigo|yellow|pink|green|stone|
 # homepage information
 author: Benjamin Unrau Dyck
 author-bio: 23-year-old Paraguayan student pursuing a Bachelor’s Degree in Computer Science
-author-image: logos/1.png  # file must be in the /assets/img/ folder
+author-image: logos/11.png  # file must be in the /assets/img/ folder
 
 # navigation menu
 show-nav-menu: true
