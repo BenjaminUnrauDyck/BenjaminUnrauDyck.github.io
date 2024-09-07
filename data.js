@@ -1,45 +1,41 @@
 
-export const githubUsername = "IvanWeissVanDerPol";
+export const githubUsername = "BenjaminUnrauDyck";
 
-export const Name = "Ivan";
-export const LastName = "Weiss Van Der Pol";
+export const Name = "Benjamin";
+export const LastName = "Unrau Dyck";
 export const FullName = `${Name} ${LastName}`;
-export const mail = "weissvanderpol.ivan@gmail.com";
+export const mail = "benjaminunrau07@gmail.com";
 
 // Meta information
-export const metaTitle = "Ivan Weiss Van Der Pol's Portfolio";
-export const metaDescription = "Explore the portfolio of Ivan Weiss Van Der Pol, showcasing skills in software engineering, project management, and more.";
-export const metaKeywords = "Ivan Weiss Van Der Pol, software engineer, portfolio, project management, certifications, web development";
-export const metaAuthor = "Ivan Weiss Van Der Pol";
+export const metaTitle = "Benjamin Unrau Dyck's Portfolio";
+export const metaDescription = "Explore the portfolio of Benjamin Unrau Dyck, showcasing skills in software engineering, project management, and more.";
+export const metaKeywords = "Benjamin Unrau Dyck, software engineer, portfolio, project management, certifications, web development";
+export const metaAuthor = "Benjamin Unrau Dyck";
 
 // Contact information
 export const contactInfo = `I'm just an email or a message away on any platform. Send me an email at ${mail}, or find me on LinkedIn, Twitter, Facebook, or Instagram. Let’s start a conversation about your ideas or just enjoy a casual chat.`;
 
 export const bio = [
-    "Discover Ivan Weiss: Engineer, Innovator, Educator.",
-    `As a Software Developer, I merge a rigorous academic background in Software Engineering with profound real-world experience across development and quality assurance.`,
-    `I excel in harnessing multiple programming languages and automation tools to not only meet but advance industry standards through innovative solutions.`,
-    `Beyond developing software, I'm committed to educating and empowering the next generation of tech professionals, sharing insights and inspiring innovation.`,
-    "Thank you for exploring my journey and contributions to the tech world!",
+    "I am a 23-year-old Computer Science student with a strong foundation in software development, specializing in backend technologies. I am particularly interested in Quality Assurance (QA), with a growing passion for automation and AI. My multilingual skills in German, English, and Spanish, combined with my growing technical expertise, make me a valuable asset in diverse, collaborative environments.",
 ];
 
 export const languages = [
 
     {
-        title: "English Communication",
-        skillName: "English ",
+        title: "German Communication",
+        skillName: "German ",
         color: "1",
+        percentage: "100",
+    }, {
+        title: "English Communication",
+        skillName: "English",
+        color: "2",
         percentage: "100",
     }, {
         title: "Spanish Communication",
         skillName: "Spanish",
-        color: "2",
-        percentage: "100",
-    }, {
-        title: "Dutch Communication",
-        skillName: "Dutch",
         color: "3",
-        percentage: "85",
+        percentage: "90",
     }
 ];
 
@@ -57,10 +53,10 @@ export const skills = {
             "skillName": "JavaScript",
             "imagePath": "images/skills/javascript_logo.png",
         },
-        {
+        /*{
             "skillName": "HTML",
             "imagePath": "images/skills/html_logo.png",
-        },
+        },*/
         {
             "skillName": "CSS",
             "imagePath": "images/skills/css_logo.png",
@@ -76,13 +72,13 @@ export const skills = {
             "imagePath": "images/skills/mysql_logo.png",
             "description": "A relational database management system used for storing and retrieving data efficiently."
         },
-        {
+       /* {
             "skillName": "MongoDB",
             "imagePath": "images/skills/mongodb_logo.png",
             "description": "A NoSQL database used for high-volume data storage."
-        }
+        }*/
     ],
-    "Testing and Automation Tools": [
+    /*"Testing and Automation Tools": [
         {
             "skillName": "Selenium",
             "imagePath": "images/skills/selenium_logo.png",
@@ -101,22 +97,22 @@ export const skills = {
             "imagePath": "images/skills/pandas_logo.png",
             "description": "Facilitates data manipulation and analysis, enabling complex data workflows in Python environments."
         }
-    ],
+    ],*/
     "Version Control and CI/CD Tools": [
         {
             "skillName": "Git",
             "imagePath": "images/skills/git_logo.png",
             "description": "Version control system to track changes in source code during software development."
         },
-        {
+        /*{
             "skillName": "Jenkins",
             "imagePath": "images/skills/jenkins_logo.png",
             "description": "An open-source automation server used to automate all sorts of tasks related to building, testing, and delivering or deploying software."
-        }
+        }*/
     ]
 };
 
-export const certifications = {
+/*export const certifications = {
 
     Test_Automation_University_TAU: [
 
@@ -288,7 +284,7 @@ export const certifications = {
             preview: "https://ivanweissvanderpol.github.io/images/Certifications/FP_UNA/ETYC_Programing_with_robots_workshop.jpg"
         },
         {
-            certificationName: "Ivan Weiss Van Der Pol Certificate TeamOps",
+            certificationName: "Benjamin Unrau Dyck Certificate TeamOps",
             image: "images/Certifications/FP_UNA/Ivan_Weiss_Van_Der_Pol_Certificate_TeamOps.jpg",
             preview: "https://ivanweissvanderpol.github.io/images/Certifications/FP_UNA/Ivan_Weiss_Van_Der_Pol_Certificate_TeamOps.jpg"
         },
@@ -335,7 +331,7 @@ export const certifications = {
             preview: "https://ivanweissvanderpol.github.io/images/Certifications/Personal/Agile_Course_certificate.jpg"
         }
     ]
-}
+}*/
 
 
 export const experience = [
@@ -383,13 +379,16 @@ export const experience = [
 export const education = [
     {
         title: "Bachelor’s Degree in Computer Science",
-        duration: "jan 2018 - present",
+        duration: "July 2021 - present",
         subtitle: "Facultad Politécnica de la Universidad Nacional de Asunción (FP-UNA)",
         details: [
-            "Completed a rigorous curriculum encompassing a wide range of computer science disciplines from fundamental theories to practical applications.",
-            "Engaged in academic competitions and collaborative certifications that enhanced languages in teamwork, problem-solving, and innovation, achieving top placements in national and international contests.",
-            "Developed proficiency in a variety of programming languages and technical tools through intensive coursework and self-directed learning, preparing for a seamless transition to professional environments.",
-            "Cultivated strong communication and leadership languages through active participation in student councils and as a student mentor, helping to organize major campus events and workshops."
+            "Currently pursuing a diverse curriculum covering essential computer science fields, including database management, object-oriented programming, and software development methodologies."
+
+"Led and participated in various academic projects, demonstrating strong leadership and problem-solving skills in real-world scenarios, and fostering team collaboration."
+
+"Participated and volunteered at university events, contributing as a helper and organizer, gaining hands-on experience in event management and technical support, enhancing teamwork and communication skills in fast-paced, dynamic environments."
+
+"Gained practical experience with multiple programming languages and technologies through coursework and self-directed learning, including SQL, Python, Java."
         ],
         tags: [
             "Algorithms & Data Structures",
@@ -415,7 +414,7 @@ export const education = [
         ],
         icon: "graduation-cap",
     },
-    {
+/*    {
         title: "Study Abroad Program",
         duration: "jan 2023 - may 2023",
         subtitle: "Wichita State University, Kansas, USA",
@@ -446,24 +445,24 @@ export const education = [
         ],
         icon: "briefcase",
     },
-];
+];*/
 
-export const testimonials = {
+/*export const testimonials = {
     reviewer: "Anonymous Colleagues",
     period: "Six-Month Review",
     company: "MentorMate",
     feedback: [
       {
         title: "Structured and Clear Communication",
-        detail: "Ivan expresses ideas and presents concepts in a structured way. He is incredibly articulate, making it easy for team members to understand complex information."
+        detail: "Benjaminexpresses ideas and presents concepts in a structured way. He is incredibly articulate, making it easy for team members to understand complex information."
       },
       {
         title: "Professionalism and Manners",
-        detail: "Ivan is very well-mannered, always polite, and maintains a positive demeanor, which enhances the work environment."
+        detail: "Benjaminis very well-mannered, always polite, and maintains a positive demeanor, which enhances the work environment."
       },
       {
         title: "Proactive Problem-Solving",
-        detail: "Ivan demonstrates a proactive approach to problem-solving, preferring to address challenges independently before seeking help, which shows his initiative and determination."
+        detail: "Benjamindemonstrates a proactive approach to problem-solving, preferring to address challenges independently before seeking help, which shows his initiative and determination."
       },
       {
         title: "Innovative Use of Technology",
@@ -475,11 +474,11 @@ export const testimonials = {
       },
       {
         title: "Technical Skills and Analysis",
-        detail: "Ivan is incredibly smart and talented. He has a knack for automation and possesses electrical/mechanical skills, which enable him to analyze and solve problems efficiently."
+        detail: "Benjaminis incredibly smart and talented. He has a knack for automation and possesses electrical/mechanical skills, which enable him to analyze and solve problems efficiently."
       },
       {
         title: "Team Collaboration and Support",
-        detail: "During the Pelvital project, Ivan was attentive to details and always willing to help and support team members. His teamwork mindset has made him a crucial part of our project’s success."
+        detail: "During the Pelvital project, Benjaminwas attentive to details and always willing to help and support team members. His teamwork mindset has made him a crucial part of our project’s success."
       },
       {
         title: "Efficiency and Communication",
@@ -487,18 +486,18 @@ export const testimonials = {
       },
       {
         title: "Energy and Passion for Learning",
-        detail: "Ivan has an endless amount of energy and a strong desire to learn and improve. When he finds a task interesting, he goes above and beyond to deliver, especially when it involves back-end technologies or automation."
+        detail: "Benjaminhas an endless amount of energy and a strong desire to learn and improve. When he finds a task interesting, he goes above and beyond to deliver, especially when it involves back-end technologies or automation."
       },
       {
         title: "Contributions to Team Knowledge",
-        detail: "Ivan is always open to helping his team with anything, including creating scripts to improve our workflow. His contributions are much appreciated."
+        detail: "Benjaminis always open to helping his team with anything, including creating scripts to improve our workflow. His contributions are much appreciated."
       },
       {
         title: "Innovative Problem Solving",
-        detail: "In the project, Ivan took the initiative to assist with the testing of controller data—a challenging task. His insights were invaluable and greatly assisted the team."
+        detail: "In the project, Benjamintook the initiative to assist with the testing of controller data—a challenging task. His insights were invaluable and greatly assisted the team."
       }
     ]
-  };
+  };*/
   
 
 export const footer = [
@@ -507,7 +506,7 @@ export const footer = [
         data: [
             {
                 text: "GitHub",
-                link: "https://github.com/IvanWeissVanDerPol",
+                link: "https://github.com/BenjaminUnrauDyck",
             },
         ],
     },
@@ -516,11 +515,11 @@ export const footer = [
         data: [
             {
                 text: "send me a mail",
-                link: "mailto:weissvanderpol.ivan@gmail.com",
+                link: "mailto:benjaminunrau07@gmail.com",
             },
             {
                 text: "Download Resume",
-                link: "assets\\Ivan_Weiss_Resume.pdf",
+                link: "assets\\Benjamin_Unrau.pdf",
                 target: "_blank"
             }
         ],
@@ -530,22 +529,22 @@ export const footer = [
         data: [
             {
                 text: "Linkedin",
-                link: "https://www.linkedin.com/in/IvanWeissVanDerPol/",
+                link: "https://www.linkedin.com/in/benjamin-unrau-dyck/",
             },
             {
                 text: "whatsapp",
-                link: "https://wa.me/595981324569",
+                link: "https://wa.me/595986361808",
             },
-            {
+/*            {
                 text: "Instagram",
                 link: "https://www.instagram.com/ivan_weiss_van_der_pol/",
-            },
+            },*/
         ],
     },
     {
         label: "copyright-text",
         data: [
-            "Made with &hearts; by IvanWeissVanDerPol.",
+            "Made with &hearts; by Benjamin Unrau Dyck.",
             "&copy; No Copyrights. Feel free to use this template.",
         ],
     },
