@@ -219,11 +219,11 @@ export const footer = [
                 text: "send me a mail",
                 link: "mailto:benjaminunrau07@gmail.com",
             },
-            {
+           /* {
                 text: "Download Resume",
                 link: "assets\\Ivan_Weiss_Resume.pdf",
                 target: "_blank"
-            }
+            }*/
         ],
     },
     {
@@ -236,10 +236,6 @@ export const footer = [
             {
                 text: "whatsapp",
                 link: "https://wa.me/595986361808",
-            },
-            {
-                text: "Instagram",
-                link: "https://www.instagram.com/ivan_weiss_van_der_pol/",
             },
         ],
     },
