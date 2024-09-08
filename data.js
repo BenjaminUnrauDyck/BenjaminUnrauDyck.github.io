@@ -79,7 +79,7 @@ export const certifications = {
 
 
     educationalCertifications: [
-        {
+/*        {
             certificationName: "FPUNA Grades 1",
             image: "images/Certifications/FP_UNA/FPUNA_grades-1.jpg",
             preview: "https://ivanweissvanderpol.github.io/images/Certifications/FP_UNA/FPUNA_grades-1.jpg"
@@ -108,13 +108,13 @@ export const certifications = {
             certificationName: "Agile Course Certificate",
             image: "images/Certifications/Personal/Agile_Course_certificate.jpg",
             preview: "https://ivanweissvanderpol.github.io/images/Certifications/Personal/Agile_Course_certificate.jpg"
-        }
+        }*/
     ]
 }
 
 
 export const experience = [
-    {
+/*    {
         title: "MentorMate",
         subtitle: "Quality Specialist II - Professional Development and Training",
         duration: "August 2023 - Present",
@@ -153,7 +153,7 @@ export const experience = [
         tags: ["Software Testing", "Software Development", "Automation", "Machine Learning", "Documentation"],
         icon: "globe",
     }
-];
+];*/
 
 export const education = [
     {
@@ -161,11 +161,11 @@ export const education = [
         duration: "July 2021 - present",
         subtitle: "Facultad Politécnica de la Universidad Nacional de Asunción (FP-UNA)",
         details: [
-            "Completed a rigorous curriculum encompassing a wide range of computer science disciplines from fundamental theories to practical applications.",
+            /*"Completed a rigorous curriculum encompassing a wide range of computer science disciplines from fundamental theories to practical applications.",
             "Engaged in academic competitions and collaborative certifications that enhanced languages in teamwork, problem-solving, and innovation, achieving top placements in national and international contests.",
             "Developed proficiency in a variety of programming languages and technical tools through intensive coursework and self-directed learning, preparing for a seamless transition to professional environments.",
             "Cultivated strong communication and leadership languages through active participation in student councils and as a student mentor, helping to organize major campus events and workshops."
-        ],
+        ],*/
         tags: [
             "Algorithms & Data Structures",
             "Software Engineering",
